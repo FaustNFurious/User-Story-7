@@ -2,7 +2,7 @@
 
 return [
     'hello' => 'Hola',
-    'welcome_to_the_User_Story' => 'Bienvenido a la User Story',
+    'welcome_to_the_User_Story' => 'Bienvenido al User Story',
     'share_read_articles' => 'Comparte y Lee Artículos',
     'registration_date' => 'Fecha de Registro',
     'user_details' => 'Detalles del Usuario',
