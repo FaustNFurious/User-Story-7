@@ -29,14 +29,14 @@
                     <div class="col-md-5 ps-3">
                         <div class="card-body">
 
-                        <h4 class="text-light">Labels</h4>
+                        <h4 class="text-light">{{ __('ui.labels') }}</h4>
 
                         @if ($image->labels)
                             @foreach ($image->labels as $label)
                                 #{{ $label }},
                             @endforeach
                         @else
-                            <p>No Labels</p>
+                            <p class="text-light">{{ __('ui.no_labels') }}</p>
                         @endif
 
                         </div>
@@ -45,7 +45,7 @@
                     <div class="col-md-8 ps-3">
                         <div class="card-body">
 
-                            <h4 class="text-light">Ratings</h4>
+                            <h4 class="text-light">{{ __('ui.ratings') }}</h4>
 
                             <div class="row justify-content-center">
                                 <div class="col-2">
@@ -53,7 +53,7 @@
                                         {{ $image->adult }}
                                     </div>
                                 </div>
-                                <div class="col-10">adult</div>
+                                <div class="col-10">{{ __('ui.adult') }}</div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-2">
@@ -61,7 +61,7 @@
                                         {{ $image->spoof }}
                                     </div>
                                 </div>
-                                <div class="col-10">spoof</div>
+                                <div class="col-10">{{ __('ui.spoof') }}</div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-2">
@@ -69,7 +69,7 @@
                                         {{ $image->medical }}
                                     </div>
                                 </div>
-                                <div class="col-10">medical</div>
+                                <div class="col-10">{{ __('ui.medical') }}</div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-2">
@@ -77,7 +77,7 @@
                                         {{ $image->violence }}
                                     </div>
                                 </div>
-                                <div class="col-10">violence</div>
+                                <div class="col-10">{{ __('ui.violence') }}</div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-2">
@@ -85,7 +85,7 @@
                                         {{ $image->racy }}
                                     </div>
                                 </div>
-                                <div class="col-10">racy</div>
+                                <div class="col-10">{{ __('ui.racy') }}</div>
                             </div>
 
                         </div>

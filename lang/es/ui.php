@@ -89,5 +89,13 @@ return [
     'upload_images' => 'Subir Imágenes',
     'photo_preview' => 'Vista Previa de la Foto',
     'remove_img' => 'Eliminar Imagen',
+    'labels' => 'Etiquetas',
+    'no_labels' => 'No hay Etiquetas',
+    'ratings' => 'Calificaciones',
+    'adult' => 'Adulto',
+    'spoof' => 'Broma',
+    'medical' => 'Médico',
+    'violence' => 'Violencia',
+    'racy' => 'Contenido Sensible',
 
 ];

@@ -89,6 +89,13 @@ return [
     'upload_images' => 'Carica Immagini',
     'photo_preview' => 'Anteprima Foto',
     'remove_img' => 'Rimuovi Immagine',
-    
+    'labels' => 'Etichette',
+    'no_labels' => 'Nessuna Etichetta',
+    'ratings' => 'Valutazioni',
+    'adult' => 'Adulto',
+    'spoof' => 'Scherzo',
+    'medical' => 'Medico',
+    'violence' => 'Violenza',
+    'racy' => 'Contenuto Sensibile',
 
 ];

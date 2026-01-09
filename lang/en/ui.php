@@ -89,5 +89,13 @@ return [
     'upload_images' => 'Upload Images',
     'photo_preview' => 'Photo Preview',
     'remove_img' => 'Remove Image',
+    'labels' => 'Labels',
+    'no_labels' => 'No Labels',
+    'ratings' => 'Ratings',
+    'adult' => 'Adult',
+    'spoof' => 'Spoof',
+    'medical' => 'Medical',
+    'violence' => 'Violence',
+    'racy' => 'Racy',
 
 ];
